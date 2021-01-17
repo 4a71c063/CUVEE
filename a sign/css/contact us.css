@@ -1,0 +1,59 @@
+
+body{
+    width: 1920px;
+    height: 1080px;
+    width: 100%;
+    height: 120%;
+    padding: 0;
+    margin: 0;
+    background-image: url('https://i.ibb.co/Xk8B2hL/1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+}
+
+.back{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 25px;
+}
+
+.a016{
+    font-size: 120%;
+    display: flex;
+    position: absolute;
+    top: 620px;
+    left: 135px;
+}
+
+.a059{
+    font-size: 120%;
+    display: flex;
+    position: absolute;
+    top: 620px;
+    left: 405px;
+}
+
+.a063{
+    font-size: 120%;
+    display: flex;
+    position: absolute;
+    top: 620px;
+    left: 675px;
+}
+
+.a073{
+    font-size: 120%;
+    display: flex;
+    position: absolute;
+    top: 620px;
+    left: 945px;
+}

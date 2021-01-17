@@ -1,0 +1,320 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400&display=swap'); */
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    box-shadow: 0 3px 18px rgba(0, 0, 0, .11);
+    position: fixed;
+    width: 100%;
+    z-index: 950;
+}
+
+
+
+.wit{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 160px;
+    top: 0;
+    z-index: 900;
+}
+
+.coler{
+    color: white;
+}
+
+.user{
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    right: 16px;
+    z-index: 997;
+}
+
+a:hover{
+    text-decoration:none
+}
+
+.ph{
+    position: absolute;
+}
+
+.ph:hover{
+    transform : scale(1.2);
+    margin-top: 25px;
+}
+
+
+.bg{
+    position: relative;
+    display: flex;
+    position: fixed;
+    height: 50px;
+    width: 20px;
+    left: 120px;
+    top: 100px;
+    z-index: 980;
+}
+
+.cv{
+    display: block;
+    position: fixed;
+    margin-top: -142px;
+    margin-left: 145px;
+    z-index: 980;
+
+}
+
+.jin{
+    margin-left: -60px;
+    margin-top: 250px;
+}
+
+
+
+.vimg{
+    margin-top: -150px;
+    width: 150px;
+}
+
+
+
+
+
+.ph1{
+    top: 200px;
+    left: 150px;
+}
+
+.ph11{
+    width: 180px;
+    margin-left: -153px;
+    margin-top: 10px;
+}
+
+h2,h4{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+
+h2{
+    margin-left: 30px;
+    margin-top: -90px;
+    letter-spacing:5px;
+}
+h4{
+    margin-left: 30px;
+}
+/* 
+.iss{
+    width: 50px;
+    margin-left: 235px;
+    margin-top: 0px;
+    z-index: 1000;
+} */
+
+.ph2{
+    top: 200px;
+    left: 430px;
+    
+}
+
+.ph12{
+    width: 180px;
+    margin-left: -153px;
+    margin-top: 10px;
+}
+
+.ph3{
+    top: 200px;
+    left: 710px;
+}
+.ph13{
+    width: 180px;
+    margin-left: -153px;
+    margin-top: 10px;
+}
+.ph4{
+    top: 200px;
+    left: 990px;
+}
+.ph14{
+    width: 180px;
+    margin-left: -153px;
+    margin-top: 10px;
+}
+.vimg-v1{
+    width: 145px;
+    margin-top: -150px;
+}
+
+.ph5{
+    top:550px;
+    left: 150px;
+}
+.ph15{
+    width: 180px;
+    margin-left: -153px;
+    margin-top: 20px;
+}
+.ph6{
+    top:550px;
+    left: 430px;
+}
+
+.ph16{
+    width: 180px;
+    margin-left: -153px;
+    margin-top: 20px;
+}
+
+.ph7{
+    top:550px;
+    left:710px;
+}
+.ph17{
+    width: 180px;
+    margin-left: -153px;
+    margin-top: 20px;
+}
+.ph8{
+    top:550px;
+    left: 990px;
+}
+.ph18{
+    width: 180px;
+    margin-left: -153px;
+    margin-top: 20px;
+}
+.ph9{
+    top: 900px;
+    left: 150px;
+}
+.ph19{
+    width: 180px;
+    margin-left: -153px;
+    margin-top: 20px;
+}
+.ph10{
+    top: 900px;
+    left: 430px;
+}
+
+.ph20{
+    width: 180px;
+    margin-left: -153px;
+    margin-top: 20px;
+}
+.ph101{
+    top: 900px;
+    left: 710px;
+}
+
+.ph21{
+    width: 180px;
+    margin-left: -153px;
+    margin-top: 20px;
+}
+.ph102{
+    top: 900px;
+    left: 990px;
+}
+.ph22{
+    width: 180px;
+    margin-left: -153px;
+    margin-top: 20px;
+}
+
+
+.onew{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 1200px;
+}
+
+
+
+
+
+
+
+.sout {
+    position: fixed;
+    display: flex;
+    top: 30px;
+    right: 2px;
+    width: 80px;
+    height: 10px;
+    /* background-color: rgb(255, 215, 215); */
+    z-index: 1000;
+}
+
+.ull {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.lii {
+    border-bottom: 3px solid transparent;
+    transition: all 0.5s ease-in;
+}
+
+.lii a {
+    text-decoration: none;
+    /* margin: 10px; */
+    color: rgb(90, 90, 90);
+}
+
+.lii:hover {
+    border-bottom: 3px solid white;
+}
+
+.ulu {
+    position: absolute;
+    top: 20px;
+    /* background-color: rgb(52, 167, 182); */
+    display: flex;
+    width: 90px;
+    height: 55px;
+    display: none;
+    right: 1px;
+}
+
+.lil {
+    position: relative;
+}
+
+.lil:hover>.ulu {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    
+}
+
+.lil:hover>.ulu .lii:hover {
+    border-bottom: 10px solid transparent;
+    background-color: #9FCD25;
+    color: white;
+}
+
+.siout{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    right: 1px;
+    top: 20px;
+}

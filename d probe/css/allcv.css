@@ -1,0 +1,334 @@
+
+
+body{
+    width: 1024px;
+    height: 1366px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url('https://i.ibb.co/RY2dCxL/1-13.png');
+}
+
+.rounded-circle{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    border-radius: 500px;
+    margin-top: -100px;
+    margin-left: 150px;
+}
+
+
+
+.navbar {
+    box-shadow: 0 3px 18px rgba(0, 0, 0, .11);
+    position: fixed;
+    width: 100%;
+    z-index: 998;
+}
+
+
+
+.user{
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    right: 16px;
+
+}
+
+
+a:hover{text-decoration:none}
+
+.icon1{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.bigg{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+
+.bgbg{
+    position:absolute;
+    top: 90px;
+    left: 540px;
+    width: 25px;
+    height: 55px;
+}
+
+
+.hhr{
+    width: 650px;
+    margin-left: -25px;
+    margin-top: 20px;
+}
+
+.ri{
+    position: absolute;
+    top: 400px;
+    right: 30px;
+    width: 80px;
+}
+
+.le{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    width: 80px;
+}
+
+
+.cvp{
+    margin-left: 580px;
+    /* padding-top: -50px; */
+    width: 600px;
+}
+
+.www{
+    font-size: 16px;
+    line-height: 35px;
+}
+
+
+p{
+    padding-left: 5px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.rcw{
+    margin-top: -50px;
+}
+
+
+.w1{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 200px;
+    font-weight: 600;
+    letter-spacing:18px;
+    color: white;
+}
+
+.bb{
+    position: absolute;
+    font-size: 45px;
+    margin-left: 180px;
+    margin-top: 280px;
+    letter-spacing:5px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+.i3{
+    position:absolute;
+    right: 140px;
+    width:80px;
+    height: 80px;
+    top: 340px;
+}
+
+.i2{
+    position:absolute;
+    right: 370px;
+    width:80px;
+    height: 80px;
+    top:340px;
+}
+
+.i1{
+    position:absolute;
+    right: 600px;
+    width:80px;
+    height: 80px;
+    top: 340px;
+}
+
+
+
+.iii{
+    margin-top: -75px;
+
+}
+
+.hc0{
+    position:absolute;
+    left: 610px;
+    top: 405px;
+    font-weight: 600;
+    
+}
+.hc00{
+    position:absolute;
+    left: 700px;
+    top: 410px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.hc01{
+    position:absolute;
+   left: 840px;
+    top: 405px;
+    font-weight: 600;
+}
+
+.hc02{
+    position:absolute;
+    left: 1080px;
+    top: 405px;
+    font-weight: 600;
+}
+
+
+
+.hc1{
+    position:absolute;
+    left: 580px;
+    top:450px;
+}
+
+.hc11{
+    position:absolute;
+    right: 580px;
+    top:450px;
+    text-align: right;
+}
+
+.hc12{
+    position:absolute;
+    left: 710px;
+    top:450px;
+}
+
+.hc2{
+    position:absolute;
+    left: 810px;
+    top:450px;
+}
+
+.hc21{
+    position:absolute;
+    right: 330px;
+    top:450px;
+    text-align: right;
+}
+
+.hc22{
+    position:absolute;
+    left: 960px;
+    top:450px;
+}
+
+.hc3{
+    position:absolute;
+    left: 1040px;
+    top:450px;
+}
+
+.hc31{
+    position:absolute;
+    right: 140px;
+    top:450px;
+    text-align: right;
+}
+
+.hc32{
+    position:absolute;
+    left: 1150px;
+    top:450px;
+}
+
+
+
+@media screen and(max-width:1920px){
+    
+}
+
+.sout {
+    position: absolute;
+    top: 30px;
+    right: 2px;
+    width: 80px;
+    height: 10px;
+    /* background-color: rgb(255, 215, 215); */
+    z-index: 1000;
+}
+
+.ull {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.lii {
+    border-bottom: 3px solid transparent;
+    transition: all 0.5s ease-in;
+}
+
+.lii a {
+    text-decoration: none;
+    /* margin: 10px; */
+    color: rgb(90, 90, 90);
+}
+
+.lii:hover {
+    border-bottom: 3px solid white;
+}
+
+.ulu {
+    position: absolute;
+    top: 20px;
+    /* background-color: rgb(52, 167, 182); */
+    display: flex;
+    width: 90px;
+    height: 55px;
+    display: none;
+    right: 1px;
+}
+
+.lil {
+    position: relative;
+}
+
+.lil:hover>.ulu {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    
+}
+
+.lil:hover>.ulu .lii:hover {
+    border-bottom: 10px solid transparent;
+    background-color: #9FCD25;
+    color: white;
+}
+
+.siout{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    right: 1px;
+    top: 20px;
+}
+
+.back{
+    position: fixed;
+    top: 90px;
+    left: 30px;
+    width: 25px;
+}

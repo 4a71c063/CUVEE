@@ -1,0 +1,441 @@
+body{
+
+    height: 1530px;
+    padding: 0;
+    margin: 0;
+
+}
+.navbar {
+    box-shadow: 0 3px 18px rgba(0, 0, 0, .11);
+    position: fixed;
+    width: 100%;
+    z-index: 950;
+}
+.user{
+    height: 30px;
+    width: 30px;
+}
+
+/* 第一層 */
+.Aimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    right: 450px;
+
+}
+.B1img{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+
+}
+
+/* 第二層 */
+.B2img{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 280px;
+    right: 450px;
+
+}
+.B3img{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 280px;
+    right: 100px;
+
+}
+
+/* 第三層 */
+.B5img{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 410px;
+    right: 450px;
+
+}
+.B6img{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 410px;
+    right: 100px;
+
+}
+
+/* 第四層 */
+.B7img{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 540px;
+    right: 450px;
+
+}
+.B9img{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 540px;
+    right: 100px;
+
+}
+
+/* 第五層 */
+.B12img{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 670px;
+    right: 450px;
+
+}
+.Cimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 670px;
+    right: 100px;
+
+}
+
+/* 第六層 */
+.Dimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 800px;
+    right: 450px;
+
+}
+.Eimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 800px;
+    right: 100px;
+
+}
+
+/* 第七層 */
+.VKimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 930px;
+    right: 450px;
+
+}
+
+/* 第8層 */
+.Naimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 1100px;
+    right: 450px;
+
+}
+.Mgimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 1100px;
+    right: 100px;
+
+}
+
+/* 第9層 */
+.Pimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 1230px;
+    right: 450px;
+
+}
+.Kimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 1230px;
+    right: 100px;
+
+}
+
+/* 第10層 */
+.Caimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 1360px;
+    right: 450px;
+
+}
+.Crimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top:1360px;
+    right: 100px;
+
+}
+
+/* 第11層 */
+.Mnimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top:1490px;
+    right: 450px;
+
+}
+.Feimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top:1490px;
+    right: 100px;
+
+}
+
+/* 第12層 */
+.Cuimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top:1620px;
+    right: 450px;
+
+}
+.Znimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top:1620px;
+    right: 100px;
+
+}
+
+/* 第13層 */
+.Seimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 1750px;
+    right: 450px;
+
+}
+.Moimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 1750px;
+    right: 100px;
+
+}
+
+/* 第14層 */
+.Iimg{
+    width: 280px;
+    display: flex;
+    position: absolute;
+    top: 1880px;
+    right: 450px;
+
+}
+
+
+.wa{
+    width: 35px;
+    margin-left: 480px;
+    margin-top: 95px;
+    display: block;
+}
+
+.wat{
+    width: 70px;
+    display: flex;
+    position: absolute;
+    top: 101px;
+    right: 660px;
+}
+
+.cum{
+    width: 35px;
+    margin-left: 480px;
+    margin-top: 910px;
+    display: block;
+}
+
+.cumt{
+    width: 70px;
+    display: flex;
+    position: absolute;
+    top: 1045px;
+    right: 660px;
+}
+
+
+.sout {
+    position: absolute;
+    top: 40px;
+    right: 8px;
+    width: 80px;
+    height: 80px;
+    /* background-color: rgb(255, 215, 215); */
+    z-index: 1200;
+}
+
+.ull {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.lii {
+    border-bottom: 3px solid transparent;
+    transition: all 0.5s ease-in;
+}
+
+.lii a {
+    text-decoration: none;
+    /* margin: 10px; */
+    color: rgb(90, 90, 90);
+}
+
+.lii:hover {
+    border-bottom: 3px solid white;
+}
+
+.ulu {
+    position: absolute;
+    top: 5px;
+    /* background-color: rgb(52, 167, 182); */
+    display: flex;
+    width: 90px;
+    height: 55px;
+    display: none;
+    right: 1px;
+}
+
+.lil {
+    position: relative;
+}
+
+.lil:hover>.ulu {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    
+}
+
+.lil:hover>.ulu .lii:hover {
+    border-bottom: 10px solid transparent;
+    background-color: #9FCD25;
+    color: white;
+}
+
+.siout{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    right: 1px;
+    top: 20px;
+}
+
+
+/* .peopleimg{
+    width: 200px;
+    display: flex;
+    position: fixed;
+    top: 140px;
+    left: 225px;
+} */
+.qq123{
+    width: 500px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left:-30px;
+}
+/* .peopleimg{
+    width: 200px;
+    display: flex;
+    position: fixed;
+    top: 140px;
+    left: 225px;
+} */
+
+.number {
+    overflow: hidden;
+    position: relative;
+    width   : 500px;
+    height  : 690px;
+    left: 0;
+
+}
+.img {
+    position  : absolute;
+    width     : 500px;
+    height    : 700px;
+    z-index   : 99;
+    top       : 50px;
+    left      : 0;
+    background: url("https://i.ibb.co/Hq4gfRS/END.png") no-repeat center center;
+}
+
+.wave {
+    position: relative;
+}
+
+.wave div {
+    position     : absolute;
+    top          : 400px;
+    left         : 50%;
+    width        : 450px;
+    height       : 400px;
+    margin-left  : -220px;
+    border-radius: 90%;
+}
+
+.w1 {
+    background: #00ff00;
+    opacity   : 0.4;
+    animation : drift 4s infinite linear;
+}
+
+.w2 {
+    background: #ffa600;
+    opacity   : 0.6;
+    animation : drift 6s infinite linear;
+}
+
+.w3 {
+    background: #def50c;
+    opacity   : 0.4;
+    animation : drift 5s infinite linear;
+}
+
+@keyframes drift {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform        : rotate(0deg);
+    }
+
+    from {
+        -webkit-transform: rotate(360deg);
+        transform        : rotate(360deg);
+    }
+}

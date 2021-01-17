@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400&display=swap');
+
+
+*{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.welcome{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+
+
+
+body{
+    width: 1920px;
+    height: 1080px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url('https://i.ibb.co/sVCMS8d/1-3-1-3.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+}
+
+.number01{
+    padding-left: 158px;
+    font-size: smaller;
+}
+
+.problem01{
+    padding-left: 38px;
+    
+}
+
+.div01{
+    position: absolute;
+    top: 70px;
+    right: 1px;
+    height: 400px;
+    width: 700px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.form{
+    margin: 3% auto;
+    display: flex;
+    display: block;
+
+    padding-top: 200px;
+    padding-right: 50px;
+
+    align-items: center;
+    justify-content: flex-end;
+
+    
+}
+
+form label {
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    display: inline-block;
+
+    margin: 3%;
+    width: 100px;
+
+    padding-right: 5px;
+
+    font-size: 25px;
+
+    color: #4D4D4D;
+
+}
+
+form input[type=text],form input[type=password]{
+    border: none;
+    border-bottom: 0.8px solid;
+    color: #989898;
+}
+
+.p1{
+    padding-left: 23px;
+    color: #989898;
+}
+
+.createAccount{
+    padding-left: 10px;
+}
+
+.p1,.p2{
+    display: inline;
+}
+
+form input[type=submit] {
+    width: 230px;
+    height: 40px;
+    background-color:#9FCD25;
+    border-radius: 20px;
+    border: none;
+    margin: 12% auto;
+    padding: 1px;
+    color: white;
+    font-size: 25px;
+}
+
+.number01,.createAccount,.problem01,.contact01{
+    color: #8FB224;
+}
+
+
+@media screen and (max-width:1920px){
+    
+}
